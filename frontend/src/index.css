@@ -1,0 +1,90 @@
+/* Global body style */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* Glass card container */
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+  padding: 25px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.glass-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+}
+
+/* Inputs and textareas */
+input, textarea {
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 1rem;
+  color: #fff;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s;
+  width: 100%;
+}
+
+input:focus, textarea:focus {
+  background: rgba(255,255,255,0.25);
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  transition: all 0.3s;
+}
+
+button.primary {
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  color: #fff;
+}
+
+button.primary:hover {
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+}
+
+button.danger {
+  background: #ff4b5c;
+  color: #fff;
+}
+
+button.danger:hover {
+  background: #ff616f;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.navbar h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* Links */
+a {
+  color: #fff;
+  text-decoration: underline;
+}
