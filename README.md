@@ -142,3 +142,9 @@ Environment Variables
 PORT – Port to run backend server
 MONGO_URI – MongoDB connection string
 JWT_SECRET – Secret key for signing JWT tokens
+
+Name	Role	GitHub
+Venisha	Frontend & Backend Developer	@https://github.com/Venisha31/
+Khyati	Backend Developer	
+Krishna	UI/UX Designer	
+Shreya  Database Designer
